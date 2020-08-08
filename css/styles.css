@@ -555,13 +555,49 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.invitation {
+.invitation,
+.subscription {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
   color: var(--title-dark-theme-color);
 }
+
+.subscription {
+  margin-bottom: 20px;
+}
+
+.subscription-form {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-basis: auto;
+  margin-right: -12px;
+  margin-bottom: -20px;
+}
+
+.footer-subscription {
+  box-sizing: border-box;
+  padding-left: 92px;
+  padding-top: 72px;
+  padding-bottom: 94px;
+}
+
+.subscription-form-input {
+  display: block;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: #2f303a;
+  margin-right: 12px;
+}
+
+/* .footer-subscription-svg {
+  width: 24px;
+  height: 24px;
+} */
 
 /*портфолио*/
 
@@ -769,6 +805,7 @@ img {
   width: 18px;
   height: 18px;
   margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-input:focus + .input-svg {
