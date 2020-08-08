@@ -303,6 +303,7 @@
     </main>
 
     <!--подвал-сайта-->
+
     <footer class="footer">
       <div class="container">
         <div class="footer-coordinates">
@@ -374,6 +375,26 @@
               </a>
             </li>
           </ul>
+        </div>
+        <!--форма подписки-->
+        <div class="footer-subscription">
+          <b class="subscription">Подпишитесь на рассылку</b>
+          <div class="footer-subscription-wrapper">
+            <form action="#" class="subscription-form">
+              <input
+                type="email"
+                name="user-mail"
+                class="subscription-form-input"
+                placeholder="E-mail"
+              />
+            </form>
+            <button type="button" class="subscription-btn">
+              Подписаться
+              <svg class="footer-subscription-svg" width="24" height="24">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </footer>
